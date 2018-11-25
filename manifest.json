@@ -1,0 +1,12 @@
+  {
+    "name": "Afraid.org punycode decoder",
+    "version": "1.0",
+    "description": "",
+    "manifest_version": 2,
+    "content_scripts": [
+        {
+          "matches": ["https://freedns.afraid.org/domain/registry/*"],
+          "js": ["background.js"]
+        }
+      ]
+  }
